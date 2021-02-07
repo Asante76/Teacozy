@@ -69,7 +69,6 @@ margin-bottom: 100px;
 }
 
 .banner {
-
 font-size: 8rem;
 font-family: 'Dancing Script', cursive;   
 }
@@ -194,8 +193,6 @@ width: 35%;
 .locations {
 display: flex;
 position: absolute;
-
-
 }
 /* Socials */
 
@@ -236,4 +233,79 @@ margin: 10px;
 }
 
  
+  /* Media queries */
+
+  
+  @media(max-width:480px ) {
+  
+  .Logo-header {
+  left: 5px;  
+  position: absolute;
+  }
+
+  /* nav */
+  nav {
+  
+  }
+
+  li {
+  
+  }
+
+  .banner {
+  font-size: 3rem;
+  }
+
+  .Thee-title {
+  margin-left: 28px;
+  text-align: left;
+  font-size: 1.4rem;
+  
+  }
+
+  .Thee-text {
+  margin-left: 52px;
+  text-align: left;
+  font-size: 1rem;
+  }
+
+  .flex-container {
+  flex-direction: column;
+  
+  }
+
+  .Thee-text-img {
+  display: none;
+  }
+
+  .item {
+  margin: 5px;
+  }
+
+  .social-icons  {
+  position: absolute ;
+  left: 37px;
+  bottom: 20px ;
+  }
+
+  .logo-footer {
+  display: none;
+  }
+
+  .footer-text {
+  display: none;
+  }
+
+  }
+
+  @media(max-width:768px ) {
+
+
+  }
+
+  @media(max-width:1024px ) {
+
+
+  }
+
   
