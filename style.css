@@ -47,9 +47,11 @@ nav {
   font-family: 'Spartan', sans-serif;
   font-size: 1.2rem;
   }
+
   a:hover {
-    color:  #726a95;
+  color: #726a95;
   }
+  
     /* logo */
 
 .Logo-header {
@@ -67,7 +69,7 @@ margin-bottom: 100px;
 }
 
 .banner {
-color: #726a95;
+
 font-size: 8rem;
 font-family: 'Dancing Script', cursive;   
 }
@@ -164,11 +166,17 @@ margin-top: 50px;
 background-color: #222831;
 height: 250px ;
 bottom: 0;
-position: ;
+
+}
+
+.footer-div {
+margin-top: 20px;
+position: absolute;
 }
 
 .logo-footer {
-margin-top: 150px;
+margin-top: 90px;
+margin-left: 50px;
 font-family: 'Dancing Script', cursive;  
 font-size: 3rem;
 
@@ -176,12 +184,13 @@ font-size: 3rem;
 
 .footer-text {
 position: absolute;
-margin-top: 50px;
+margin-top: 110px;
 margin-left: 440px;
 font-family: 'Spartan', sans-serif;
 line-height: 2;
 width: 35%;
 }
+
 .locations {
 display: flex;
 position: absolute;
@@ -194,7 +203,7 @@ position: absolute;
 display: flex;
 position: absolute;
 right: 30px;
-margin-top: 30px;
+margin-top: 100px;
 }
 
 .socials {
@@ -216,7 +225,7 @@ margin: 10px;
   background: -webkit-radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
   background-clip: text;
   -webkit-background-clip: text;
-  }
+}
 
 .fa-spotify {
   color: #1ED760;
