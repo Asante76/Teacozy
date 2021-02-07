@@ -1,25 +1,96 @@
-body {
+* {
+box-sizing: border-box;
+padding: 0;
 margin: 0;
-font-family: Arial, Helvetica, sans-serif;
-font-size: 22px;
+
+}
+
+body {
 color: seashell;
 background-color: black;
 text-align: center; 
 }
 
-a {
-color: seashell;
+/* Navigation bar */
+header {
+  width: 100%;
+  position: fixed;
+  z-index: 1;
+  height: 80px;
+  background-color: black;
+  border-bottom: 1px solid seashell;
+  align-items: center;
 }
 
-h1 {
+nav {
+  margin-top: 10px;
+  display: flex;
+  justify-content: flex-end;
+
+  }
+  
+  li {
+  list-style: none;
+  margin: 15px;
+  
+  }
+  .vertical-line {
+    margin-top: 10px;
+    border-left: 1px solid white;
+    height: 33px;
+  }
+
+  a {
+  
+  text-decoration: none;
+  color: white;
+  font-family: 'Spartan', sans-serif;
+  font-size: 1.2rem;
+  }
+  a:hover {
+    color:  #726a95;
+  }
+    /* logo */
+
+.Logo-header {
+top: 20px;
+left: 130px;
+position: absolute;
+font-size: 2.8rem;
 font-family: 'Dancing Script', cursive;   
-text-align: left;
 }
 
-h2,h3 {
+/* Banner */
 
-margin: 0;
-padding: 10px;
+#banner-section {
+margin-bottom: 100px;
+}
+
+.banner {
+color: #726a95;
+font-size: 8rem;
+font-family: 'Dancing Script', cursive;   
+}
+
+#mission {
+height: 700px;
+background-image: url(./Resources/Images/tea-2238290_1280.jpg);
+background-repeat: no-repeat;
+background-position: center;
+padding-top: 110px;
+}
+  
+#mission .content {
+margin: auto;
+background-color: black;
+width: 100%;
+
+}
+
+/* Foto-Gallery */
+#foto-section{
+background-color: #726a95;
+margin-bottom: 200px;
 }
 
 .flex-container {
@@ -28,56 +99,27 @@ justify-content: center;
 flex-wrap: wrap;
 }
 
-/* header section */
-
-header {
-width: 100%;
-position: fixed;
-z-index: 1;
-height: 69px;
-background-color: black;
-border-bottom: 1px solid seashell;
-align-items: center;
+.Thee-title {
+font-size: 1.8rem;
+font-family: 'Spartan', sans-serif; 
+margin-bottom: 50px;
 }
 
-nav {
-
-text-align: right;
-flex-grow: 1;
-
+.Thee-underline {
+text-decoration: underline;
 }
 
-nav span {
-display: inline-block;
-padding: 20px 10px;
+.Thee-text {
+font-family: 'Spartan', sans-serif; 
+margin-bottom: 50px;
 }
 
-
-/* Main section */
-
-.main {
-padding-top: 69px;
-opacity: 0.9;
-width: 1200px;
-margin: auto;
+.Thee-text-img {
+font-family: 'Spartan', sans-serif; 
+margin-top: 50px;
 }
 
-
-#mission {
-height: 700px;
-background-image: url(./Resources/Images/tea-2238290_1280.jpg);
-background-repeat: no-repeat;
-background-position: center;
-padding-top:110px;
-}
-
-#mission .content {
-margin: auto;
-background-color: black;
-width: 100%;
-}
-
-/* Store section */
+/* Gallery */
 
 #store {
     height: 700px;
@@ -88,10 +130,11 @@ width: 100%;
   
   .item {
     padding: 5px;
+    margin-bottom: 20px;
   }
   
   .item img {
-    height: 200px;
+    height: 200px;  
     margin: 10px;
     display: block;
   }
@@ -122,16 +165,17 @@ width: 100%;
     width: 1100px;
   }
   
-  .location {
-    opacity: 1.0;
-    padding: 10px;
-    margin: 5px 20px;
-    background-color: black;
-    flex-basis: 280px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-  }
+.location {
+opacity: 1.0;
+padding: 10px;
+margin: 5px 20px;
+background-color: black;
+flex-basis: 280px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+
+}
   
 
   
@@ -142,8 +186,15 @@ background-color: #222831;
 
 .logo {
 font-size: 3rem;
-
+justify-content: flex-start;
 }
+
+.locations {
+display: flex;
+justify-content: center;
+}
+/* Socials */
+
 
 
 /* Social-styling */
